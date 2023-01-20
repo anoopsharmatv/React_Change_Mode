@@ -1,0 +1,65 @@
+/* Write your CSS here */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:42px;
+    
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:40vw;
+    height:25vh;
+    border-radius: 20px;
+
+}
+
+.darkHeading{
+    color:white
+}
+
+.lightHeading{
+    color:black
+}
+
+.lightCard{
+    border-color: black;
+    border-style: solid;
+
+}
+
+.darkCard{
+    border-color: none;
+    background-color: black;
+
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    border-radius: 9px;
+    border-style: solid;
+}
+
+.lightButton{
+    border-color: black;
+    color:black;
+    font-family: 'Roboto';
+}
+
+.darkButton{
+    border-color: black;
+    color:black;
+    font-family: 'Roboto';
+}
